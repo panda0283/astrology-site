@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import HomePage from './pages/HomePage';
-import ConfigPage from './pages/ConfigPage';
-import ConfigImportPage from './pages/ConfigImportPage';
+import HomePage from '../pages/HomePage';
+import ConfigPage from '../pages/ConfigPage';
+import ConfigImportPage from '../pages/ConfigImportPage';
 
 const App: React.FC = () => {
   return (
